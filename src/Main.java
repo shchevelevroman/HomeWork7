@@ -35,10 +35,17 @@ public class Main {
         for (int i = 1; i <= 512; i = i + i) {
             System.out.println(i);
         }
-        //Задача №8-9
-        System.out.println("Задача №8-9");
+        //Задача №8
+        System.out.println("Задача №8");
         int salary = 29000;
         int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + salary;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+        }
+        //Задача №9
+        System.out.println("Задача №9");
+        total = 0;
         for (int i = 1; i <= 12; i++) {
             total = total + salary;
             total = total + total / 100;
